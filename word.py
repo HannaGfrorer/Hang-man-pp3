@@ -1,0 +1,17 @@
+word_list = [
+    'wares',
+    'soup',
+    'mount',
+    'extend',
+    'brown',
+    'expert',
+    'tired',
+    'humidity',
+    'backpack',
+    'crust',
+    'dent',
+    'market',
+    'knock',
+    'smite',
+    'windy',
+    'coin',]
