@@ -1,10 +1,12 @@
 import random
+
+
 from words import word_list
 
 
 def get_word():
     """
-    Docstrings ska vara precis under funktionerna
+    Brings new words into the game
     """
     word = random.choice(word_list)
     return word.upper()
@@ -12,7 +14,7 @@ def get_word():
 
 def play(word):
     """
-    Docstrings ska vara precis under funktionerna
+    Tells whether the word/letters are correct or incorrect
     """
     word_completion = "_" * len(word)
     guessed = False
@@ -65,7 +67,7 @@ def play(word):
 
 def display_hangman(tries):
     """
-    Docstrings ska vara precis under funktionerna
+    Explains all the steps in hangman
     """
     stages = {
         0: """
@@ -130,7 +132,7 @@ def display_hangman(tries):
 
 def main():
     """
-    Docstrings ska vara precis under funktionerna
+    Brings up new words for the next game
     """
     word = get_word()
     play(word)
