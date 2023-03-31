@@ -2,15 +2,18 @@ import random
 from words import word_list
 
 
-"""This is a docstring which describes the module"""
-
-
 def get_word():
+    """
+    Docstrings ska vara precis under funktionerna
+    """
     word = random.choice(word_list)
     return word.upper()
 
 
 def play(word):
+    """
+    Docstrings ska vara precis under funktionerna
+    """
     word_completion = "_" * len(word)
     guessed = False
     guessed_letters = []
@@ -30,10 +33,10 @@ def play(word):
                 tries -= 1
                 guessed_letters.append(guess)
             else:
-                print("Good job,", guess, "is in the word!")
+                print(f"Good job, {guess} is in the word!")
                 guessed_letters.append(guess)
                 word_as_list = list(word_completion)
-                indices = [i for i, letter in enumerate(word) if letter == guess]
+                indices = [i for i, char in enumerate(word) if char == guess]
                 for index in indices:
                     word_as_list[index] = guess
                 word_completion = "".join(word_as_list)
@@ -61,6 +64,9 @@ def play(word):
 
 
 def display_hangman(tries):
+    """
+    Docstrings ska vara precis under funktionerna
+    """
     stages = {
         0: """
                 ___________
@@ -123,6 +129,9 @@ def display_hangman(tries):
 
 
 def main():
+    """
+    Docstrings ska vara precis under funktionerna
+    """
     word = get_word()
     play(word)
     while input("Play Again? (Y/N) ").upper() == "Y":
