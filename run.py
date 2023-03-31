@@ -2,6 +2,9 @@ import random
 from words import word_list
 
 
+"""This is a docstring which describes the module"""
+
+
 def get_word():
     word = random.choice(word_list)
     return word.upper()
@@ -61,7 +64,7 @@ def display_hangman(tries):
     stages = {
         0: """
                 ___________
-               | /        | 
+               | /        |
                |/        ( )
                |          |
                |         / \\
@@ -69,42 +72,42 @@ def display_hangman(tries):
            """,
         1: """
                 ___________
-               | /        | 
+               | /        |
                |/        ( )
                |          |
-               |         / 
+               |         /
                |
             """,
         2: """
                 ___________
-               | /        | 
+               | /        |
                |/        ( )
                |          |
-               |          
+               |
                |
             """,
         3: """
                 ___________
-               | /        | 
+               | /        |
                |/        ( )
-               |          
-               |          
+               |
+               |
                |
             """,
         4: """
                 ___________
-               | /        | 
-               |/        
-               |          
-               |          
+               | /        |
+               |/
+               |
+               |
                |
             """,
         5: """
                 ___________
-               | /        
-               |/        
-               |          
-               |          
+               | /
+               |/
+               |
+               |
                |
             """,
         6: """
