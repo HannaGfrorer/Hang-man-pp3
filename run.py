@@ -2,6 +2,8 @@ import random
 from words import word_list
 
 
+# Initial steps to invite in the game:
+
 def get_word():
     """
     Brings new words into the game
@@ -19,6 +21,10 @@ def play(word):
     guessed_letters = []
     guessed_words = []
     tries = 6
+    print("\n Welcome to hangman game \n")
+    name = input("Enter ypur name: ")
+    print("Hello" + name + "! Best of Luck!")
+    print("The game is about to start!\n")
     print("Let's play Hangman!")
     print(display_hangman(tries))
     print(word_completion)
