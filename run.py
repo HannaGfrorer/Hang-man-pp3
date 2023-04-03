@@ -21,9 +21,9 @@ def play(word):
     guessed_letters = []
     guessed_words = []
     tries = 6
-    print("\n Welcome to hangman game \n")
+    print("\n Welcome to Hangman game \n")
     name = input("Enter ypur name: ")
-    print("Hello" + name + "! Best of Luck!")
+    print("Hello " + name + "! Best of Luck!")
     print("The game is about to start!\n")
     print("Let's play Hangman!")
     print(display_hangman(tries))
@@ -64,7 +64,7 @@ def play(word):
         print(word_completion)
         print("\n")
     if guessed:
-        print("Congrats, you guessed the word! You win!")
+        print("Wohoo, you guessed the word! You win!")
     else:
         print("Sorry, The word was " + word + ". Maybe next time!")
 
