@@ -22,7 +22,7 @@ def play(word):
     guessed_words = []
     tries = 6
     print("\n Welcome to Hangman game \n")
-    name = input("Enter ypur name: ")
+    name = input("Enter your name: ")
     print("Hello " + name + "! Best of Luck!")
     print("The game is about to start!\n")
     print("Let's play Hangman!")

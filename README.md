@@ -1,6 +1,6 @@
-## Hangman game 
+# Hangman game 
 
-#### This game is a word game where the goal is to guess the word by selecting different letters until the word is complete. The user is presented with a number of blank spaces representing the missing letters that they will need to find. This game was created to complete the third portfolioprodject for Code Insitute's Full Stack Software Developer course.
+## This game is a word game where the goal is to guess the word by selecting different letters until the word is complete. The user is presented with a number of blank spaces representing the missing letters that they will need to find. This game was created to complete the third portfolioprodject for Code Insitute's Full Stack Software Developer course.
 
 #### Live Site [Here](https://hang-man-pp3.herokuapp.com/)
 
